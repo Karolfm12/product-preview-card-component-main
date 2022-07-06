@@ -1,3 +1,6 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
 section{
     background-color: hsl(30, 38%, 92%);
     height:100vh;
@@ -5,15 +8,24 @@ section{
     justify-content: center;
     align-items: center;
 }
-img{
-    border-top-left-radius: 20px;
-    border-bottom-left-radius:20px ;
+h1{
+    font-size: 35px;
+    font-family: 'Fraunces',sans-serif;
+}
+p{
+    font-family: Montserrat;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 button{
     /* display: flex;
     justify-content: space-around; */
     /* text-align: center; */
     color: white;
+    font-size: 15px;
     font-weight: bold;
     padding: 10px;
     background-color: hsl(158, 36%, 37%);
@@ -22,14 +34,23 @@ button{
     border-radius: 10px;
 }
 .container{
-    background-color: hsl(0, 0%, 100%);
     display: flex;
-    height: 400px;
-    width: 550px;
-    border-radius: 20px;
+    height: auto;
+    
 }
 
 .text{
-    border-top-right-radius: 50px;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     padding: 30px;
+    width: 250px;
+}
+img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    width: 300px;
+}
+.images{
+    width: 15px;
 }
