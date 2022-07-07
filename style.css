@@ -47,10 +47,37 @@ button{
     width: 250px;
 }
 img{
+    content: url(images/image-product-desktop.jpg);
     border-top-left-radius: 20px;
     border-bottom-left-radius:20px ;
     width: 300px;
 }
 .images{
     width: 15px;
+}
+
+@media all and (max-width:900px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  img{
+    content: url(images/image-product-mobile.jpg);
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius:0px ;
+    height: 200px;
+  }
+  .text{
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 30px;
+    font-size: x-small;
+}
+h1{
+    font-size: 25px;
+    font-family: 'Fraunces',sans-serif;
 }
