@@ -60,22 +60,24 @@ img{
   .container{
     display: flex;
     flex-direction: column;
-    width: auto;
+    
+   
   }
   img{
     content: url(images/image-product-mobile.jpg);
     border-top-left-radius: 20px;
     border-top-right-radius:20px ;
     border-bottom-left-radius:0px ;
-    height: 200px;
+    max-width: 100%;
   }
   .text{
     background-color: hsl(0, 0%, 100%);
     border-top-right-radius: 0px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    padding: 30px;
+    padding: 25px;
     font-size: x-small;
+    
 }
 h1{
     font-size: 25px;
